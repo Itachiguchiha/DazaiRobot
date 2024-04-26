@@ -206,6 +206,7 @@ def start(update: Update, context: CallbackContext):
                 photo=START_IMG, captain=f"hello, {first_name}"
             )
                 PM_START_TEXT.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
+
             )
             lol = update.effective_message.reply_text(
                 'Starting.....'
